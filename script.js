@@ -13,7 +13,7 @@ const getSum = () => {
 	const row = document.createElement("tr");
 	row.innerHTML = `
 	<td>Total Price</td>
-      <td>${sum}</td>`
+      <td id = "ans">${sum}</td>`
 	table.append(row)
 };
 
